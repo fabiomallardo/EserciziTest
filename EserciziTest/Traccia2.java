@@ -24,17 +24,17 @@ public class Traccia2 {
         }
 
         // Stampa di tutti gli elementi uno per riga
-        System.out.println("\nGli articoli inseriti sono:");
+        System.out.println("Gli articoli inseriti sono:");
         for (int i = 0; i < lista.size(); i++) {
             System.out.println("- " + lista.get(i));
         }
 
         // Numero totale di elementi
-        System.out.println("\nNumero totale di elementi: " + lista.size());
+        System.out.println("Numero totale di elementi: " + lista.size());
 
         // Controllo se c'è "pane" e "latte"
         if (lista.contains("pane") && lista.contains("latte")) {
-            System.out.println("\nHai pensato alla colazione!");
+            System.out.println("Hai pensato alla colazione!");
         }
 
         // Chiusura Scanner
